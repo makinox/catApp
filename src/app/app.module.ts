@@ -3,19 +3,20 @@ import { NgModule, Component } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
-import { NavBarComponent } from './nav-bar/nav-bar.component';
-import { IntroComponent } from './intro/intro.component';
-import { ExpComponent } from './exp/exp.component';
+import { NavBarComponent } from './components/nav-bar/nav-bar.component';
+import { IntroComponent } from './components/intro/intro.component';
+import { RazasComponent } from './components/razas/razas.component';
 import { ServiceWorkerModule } from '@angular/service-worker';
 import { environment } from '../environments/environment';
-import { TypesComponent } from './types/types.component';
-import { StuffComponent } from './stuff/stuff.component'
-
-// Routes
+import { TypesComponent } from './components/types/types.component';
+import { StuffComponent } from './components/stuff/stuff.component'
 import { RouterModule, Routes} from '@angular/router';
+import { RazasResComponent } from './components/razas/razas-res/razas-res.component';
+import { GatosService } from './services/gatos.service';
 
 const rutas = [
-  { path:'razas', component: ExpComponent },
+  { path:'razas', component: RazasComponent },
+  { path:'razas/:gato', component: RazasResComponent },
   { path:'cosas', component: StuffComponent},
   { path:'tipos', component: TypesComponent},
   { path:'', component: IntroComponent, pathMatch:'full' },
@@ -27,9 +28,10 @@ const rutas = [
     AppComponent,
     NavBarComponent,
     IntroComponent,
-    ExpComponent,
+    RazasComponent,
     TypesComponent,
-    StuffComponent
+    StuffComponent,
+    RazasResComponent
   ],
   imports: [
     RouterModule.forRoot(rutas),
@@ -37,7 +39,7 @@ const rutas = [
     NgbModule.forRoot(),
     ServiceWorkerModule.register('/ngsw-worker.js', { enabled: environment.production })
   ],
-  providers: [],
+  providers: [GatosService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
