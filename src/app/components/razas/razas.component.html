@@ -4,17 +4,16 @@
       <div class="col-12">
         <h3>Razas de gatos</h3>
         <p class="text-justify">Aqui puedes encontrar todas las razas de gatos.
-          <br>
-          Puedes hacer click en la imagen para mas información.
+          <br> Puedes hacer click en la imagen para mas información.
         </p>
       </div>
     </div>
     <div class="col-4">
-        <ul>
-          <li *ngFor="let gato of gatos">
-            <a [routerLink]="['/razas', gato.id]">{{gato.titulo}}</a>
-          </li>
-        </ul>
-      </div>
+      <ul>
+        <li *ngFor="let gato of gatos">
+          <a [routerLink]="['/razas', gato.id]">{{gato.titulo}}</a>
+        </li>
+      </ul>
+    </div>
   </div>
 </section>

@@ -8,5 +8,12 @@
         </p>
       </div>
     </div>
+    <div class="col-4">
+      <ul>
+        <li *ngFor="let type of types">
+          <a [routerLink]="['/tipos', type.id]">{{type.titulo}}</a>
+        </li>
+      </ul>
+    </div>
   </div>
 </section>

@@ -7,6 +7,13 @@
           <br> Encuentra accesorios para gatos, casas para gatos y muchas cosas lindas para tu mascota.
         </p>
       </div>
+      <div class="col-4">
+        <ul>
+          <li *ngFor="let cosa of cosas">
+            <a [routerLink]="['/cosas', cosa.id]">{{cosa.titulo}}</a>
+          </li>
+        </ul>
+      </div>
     </div>
   </div>
 </section>

@@ -13,12 +13,16 @@ import { StuffComponent } from './components/stuff/stuff.component'
 import { RouterModule, Routes} from '@angular/router';
 import { RazasResComponent } from './components/razas/razas-res/razas-res.component';
 import { GatosService } from './services/gatos.service';
+import { TypesResComponent } from './components/types/types-res/types-res.component';
+import { StuffResComponent } from './components/stuff/stuff-res/stuff-res.component';
 
 const rutas = [
   { path:'razas', component: RazasComponent },
   { path:'razas/:gato', component: RazasResComponent },
   { path:'cosas', component: StuffComponent},
+  { path:'cosas/:cos', component: StuffResComponent},
   { path:'tipos', component: TypesComponent},
+  { path:'tipos/:raz', component: TypesResComponent},
   { path:'', component: IntroComponent, pathMatch:'full' },
   { path:'**', redirectTo:'/'}
 ]
@@ -31,7 +35,9 @@ const rutas = [
     RazasComponent,
     TypesComponent,
     StuffComponent,
-    RazasResComponent
+    RazasResComponent,
+    TypesResComponent,
+    StuffResComponent
   ],
   imports: [
     RouterModule.forRoot(rutas),
