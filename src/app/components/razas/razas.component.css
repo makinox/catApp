@@ -1,0 +1,25 @@
+/* razas card */
+
+.razas-body-card {
+    border-style: solid;
+    border-width: thin;
+    border-color: rgb(211, 211, 211);
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+.razas-img-card img {
+    border-radius: 70px;
+}
+
+.razas-img-card {
+    margin: 10px;
+}
+
+.razas-img-text {
+    margin-bottom: 10px;
+}
+
+.container {
+    background-color: #fff;
+}

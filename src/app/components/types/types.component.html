@@ -1,4 +1,4 @@
-<section>
+<section class="bg-light">
   <div class="container">
     <div class="row">
       <div class="col-12">
@@ -9,8 +9,8 @@
       </div>
     </div>
     <div class="col-4">
-      <ul>
-        <li *ngFor="let type of types">
+      <ul class="list-group">
+        <li *ngFor="let type of types" class="list-group-item">
           <a [routerLink]="['/tipos', type.id]">{{type.titulo}}</a>
         </li>
       </ul>

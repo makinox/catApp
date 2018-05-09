@@ -15,6 +15,7 @@ import { RazasResComponent } from './components/razas/razas-res/razas-res.compon
 import { GatosService } from './services/gatos.service';
 import { TypesResComponent } from './components/types/types-res/types-res.component';
 import { StuffResComponent } from './components/stuff/stuff-res/stuff-res.component';
+import { RazasHonorComponent } from './components/razas/razas-honor/razas-honor.component';
 
 const rutas = [
   { path:'razas', component: RazasComponent },
@@ -37,7 +38,8 @@ const rutas = [
     StuffComponent,
     RazasResComponent,
     TypesResComponent,
-    StuffResComponent
+    StuffResComponent,
+    RazasHonorComponent
   ],
   imports: [
     RouterModule.forRoot(rutas),

@@ -1,4 +1,4 @@
-<section>
+<section class="bg-light">
   <div class="container">
     <div class="row">
       <div class="col-12">
@@ -8,8 +8,8 @@
         </p>
       </div>
       <div class="col-4">
-        <ul>
-          <li *ngFor="let cosa of cosas">
+        <ul class="list-group">
+          <li *ngFor="let cosa of cosas" class="list-group-item">
             <a [routerLink]="['/cosas', cosa.id]">{{cosa.titulo}}</a>
           </li>
         </ul>
