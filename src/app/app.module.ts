@@ -16,9 +16,10 @@ import { GatosService } from './services/gatos.service';
 import { TypesResComponent } from './components/types/types-res/types-res.component';
 import { StuffResComponent } from './components/stuff/stuff-res/stuff-res.component';
 import { RazasHonorComponent } from './components/razas/razas-honor/razas-honor.component';
+import { RazasPageComponent } from './components/razas/razas-page/razas-page.component';
 
 const rutas = [
-  { path:'razas', component: RazasComponent },
+  { path:'razas', component: RazasPageComponent },
   { path:'razas/:gato', component: RazasResComponent },
   { path:'cosas', component: StuffComponent},
   { path:'cosas/:cos', component: StuffResComponent},
@@ -39,7 +40,8 @@ const rutas = [
     RazasResComponent,
     TypesResComponent,
     StuffResComponent,
-    RazasHonorComponent
+    RazasHonorComponent,
+    RazasPageComponent
   ],
   imports: [
     RouterModule.forRoot(rutas),

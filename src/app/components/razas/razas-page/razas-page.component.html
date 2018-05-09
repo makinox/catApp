@@ -1,0 +1,27 @@
+<section class="bg-light">
+    <div class="container">
+        <div class="row">
+      
+          <div class="col-12 col-md-6 col-lg-4 razas-card text-center" *ngFor="let gato of cats">
+            <div class="razas-body-card row">
+      
+              <div class="razas-img-front col">
+                <div class="razas-img-card mt-3">
+                  <img [src]="gato.iCard" [alt]="gato.alter" class="img-responsive" width="200" height="200">
+                </div>
+                <div class="razas-img-text mt-2 mb-2">
+                  <a [routerLink]="['/razas', gato.id]">{{gato.titulo}}</a>
+                </div>
+              </div>
+      
+              <div class="razas-img-side col p-3 m-4">
+                <div class="razas-img-desc">
+                  <p>{{gato.mDescripcion}}</p>
+                </div>
+              </div>
+            </div>
+          </div>
+      
+        </div>
+      </div>
+</section>
