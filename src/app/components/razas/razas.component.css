@@ -6,6 +6,7 @@
     border-color: rgb(211, 211, 211);
     border-radius: 5px;
     margin-bottom: 5px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.16);
 }
 
 .razas-img-card img {
@@ -22,4 +23,7 @@
 
 .container {
     background-color: #fff;
+    box-shadow: 0px 0px 300px rgba(0, 0, 0, 0.16);
+    /* margin-bottom: 100px; */
 }
+

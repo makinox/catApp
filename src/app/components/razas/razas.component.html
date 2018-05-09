@@ -1,18 +1,18 @@
 <section class="bg-light">
   <div class="container">
-    <div class="row justify-content-between">
-      <div class="col col-12 col-md-5">
+    <div class="row justify-content-center justify-content-lg-between">
+      <div class="col col-12 col-lg-5 p-5 ">
         <h3>Razas de gatos</h3>
         <p class="text-justify">Aqui puedes encontrar todas las razas de gatos.
           <br> Puedes hacer click en la imagen para mas información.
         </p>
         <div class="honor-card">
-          <img src="../../../../assets/razasLogo/honor-raza.png" class="img-responsive" alt="Honor Gatos" width="400" height="400">
+          <img src="../../../../assets/razasLogo/honor-raza.jpg" class="img-responsive" alt="Honor Gatos" width="300" height="300">
         </div>
       </div>
-      <div class=" col col-12 col-md-3">
-        <div *ngFor="let gato of gatos" class="razas-card text-center">
-          <div class="razas-body-card">
+      <div class=" col col-12 col-lg-3 p-5 align-self-center">
+        <div *ngFor="let gato of gatos ; odd as par ; even as impar" class="razas-card text-center">
+          <div class="razas-body-card" *ngIf="impar">
             <div class="razas-img-card">
               <img [src]="gato.iCard" [alt]="gato.alter" class="img-responsive" width="120" height="120">
             </div>
@@ -22,8 +22,20 @@
           </div>
         </div>
       </div>
+      <div class=" col col-12 col-lg-4 p-5 align-self-center">
+        <div *ngFor="let gato of gatos ; odd as par " class="razas-card text-center">
+          <div class="razas-body-card" *ngIf="par">
+            <div class="razas-img-card">
+              <img [src]="gato.iCard" [alt]="gato.alter" class="img-responsive" width="120" height="120">
+            </div>
+            <div class="razas-img-text">
+              <a [routerLink]="['/razas', gato.id]">{{gato.titulo}}</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      
     </div>
-    
-
   </div>
+  <div class="separate p-5"></div>
 </section>
