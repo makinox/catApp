@@ -1,3 +1,19 @@
+.header-page-raza {
+    background-image: url('../../../../assets/razasLogo/header-page-raza.jpg');
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding-top: 160px;
+    padding-bottom: 140px;
+    box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.16);
+}
+
+.header-razas-card {
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
 .razas-body-card {
     border-style: solid;
     border-width: thin;

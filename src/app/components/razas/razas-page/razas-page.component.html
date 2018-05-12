@@ -1,27 +1,40 @@
 <section class="bg-light">
+  <section class="header-page-raza">
     <div class="container">
-        <div class="row">
-      
-          <div class="col-12 col-md-6 col-lg-4 razas-card text-center" *ngFor="let gato of cats">
-            <div class="razas-body-card row">
-      
-              <div class="razas-img-front col">
-                <div class="razas-img-card mt-3">
-                  <img [src]="gato.iCard" [alt]="gato.alter" class="img-responsive" width="200" height="200">
-                </div>
-                <div class="razas-img-text mt-2 mb-2">
-                  <a [routerLink]="['/razas', gato.id]">{{gato.titulo}}</a>
-                </div>
-              </div>
-      
-              <div class="razas-img-side col p-3 m-4">
-                <div class="razas-img-desc">
-                  <p>{{gato.mDescripcion}}</p>
-                </div>
-              </div>
-            </div>
+      <div class="row">
+        <div class=" col col-12 col-md-6 card header-razas-card">
+          <div class="card-body">
+            <h2 class=" card-title">Encuetra todo sobre todas las razas de gato</h2>
+            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione similique neque quod dolorem, numquam, impedit
+              porro velit dicta cupiditate culpa sunt fuga iure saepe excepturi obcaecati sed ipsum beatae possimus.</p>
           </div>
-      
         </div>
       </div>
+    </div>
+  </section>
+  <div class="container" id="razas-section">
+    <div class="row pt-5 mt-5">
+
+      <div class="col-12 col-md-6 col-lg-4 razas-card text-center" *ngFor="let gato of cats">
+        <div class="razas-body-card row">
+
+          <div class="razas-img-front col">
+            <div class="razas-img-card mt-3">
+              <img [src]="gato.iCard" [alt]="gato.alter" class="img-responsive" width="200" height="200">
+            </div>
+            <div class="razas-img-text mt-2 mb-2">
+              <a [routerLink]="['/razas', gato.id]">{{gato.titulo}}</a>
+            </div>
+          </div>
+
+          <div class="razas-img-side col p-3 m-4">
+            <div class="razas-img-desc">
+              <p>{{gato.mDescripcion}}</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
 </section>
