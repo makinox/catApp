@@ -33,7 +33,7 @@ export class RazasResComponent implements OnInit {
   }
   
   idFilter(cat) {
-    return cat.id = this
+    return cat.titulo = this
   }
 
   findCat() {
