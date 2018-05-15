@@ -6,7 +6,7 @@
     border-color: rgb(211, 211, 211);
     border-radius: 5px;
     margin-bottom: 5px;
-    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.16);
+    box-shadow: 3px 3px 3px 0px rgba(0, 0, 0, 0.16);
 }
 
 .razas-img-card img {
