@@ -1,19 +1,44 @@
 <section class="bg-light">
   <div class="container">
     <div class="row">
-      <div class="col-12">
-        <h3>Tipos de gatos</h3>
-        <p class="text-justify">Toda la informacion sobre gatos esta aca.
+      <div class="col-6 m-5">
+        <h3 class="text-title">Tipos de gatos</h3>
+        <p class="text-justify ">Toda la informacion sobre gatos esta aca.
           <br> Encuentra toda la información sobre gatos en un solo lugar.
         </p>
+        <a href=""><img src="../../../assets/types/honor-type.jpg" alt="Tipos de gato" width="300" height="300"></a>
       </div>
-    </div>
-    <div class="col-4">
-      <ul class="list-group">
-        <li *ngFor="let type of types" class="list-group-item">
-          <a [routerLink]="['/tipos', type.id]">{{type.titulo}}</a>
-        </li>
-      </ul>
+
+      <!-- <ul class="list-group">
+          <li *ngFor="let type of types" class="list-group-item">
+            <a [routerLink]="['/tipos', type.id]">{{type.titulo}} {{type.emoji}}</a>
+          </li>
+        </ul> -->
+      <!-- <div class="card-colum"> -->
+      <div class=" col col-12 col-lg-4 p-5 align-self-center">
+        <div *ngFor="let type of types ; even as impar" class="razas-card text-center">
+          <div class="card" *ngIf="impar">
+            <div class="card-body">
+              <h5 class="card-text">
+                <a [routerLink]="['/razas', type.titulo]">{{type.titulo}} {{type.emoji}}</a>
+              </h5>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- <div class=" col col-12 col-lg-3 p-5 align-self-center">
+        <div *ngFor="let type of types ; odd as par" class="razas-card text-center">
+          <div class="card" *ngIf="par">
+            <div class="card-body">
+              <h5 class="card-text">
+                <a [routerLink]="['/razas', type.titulo]">{{type.titulo}} {{type.emoji}}</a>
+              </h5>
+            </div>
+          </div>
+        </div>
+      </div> -->
+      <!-- </div> -->
+
     </div>
   </div>
   <div class="separate p-5"></div>

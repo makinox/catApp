@@ -8,19 +8,20 @@ import { Component, OnInit } from '@angular/core';
 })
 export class TypesComponent implements OnInit {
 
-  types
+  types;
 
-  constructor() { 
+  constructor() {
     this.types = [
-      { id: 1, titulo: 'Gato afable'},
-      { id: 2, titulo: 'Gato amargado'},
-      { id: 3, titulo: 'Gato molesto'},
-      { id: 4, titulo: 'Gato lindo'},
-      { id: 5, titulo: 'Gato negativo'},
-      { id: 6, titulo: 'Gato pesimista'},
-      { id: 7, titulo: 'Gato controversial'},
-      { id: 8, titulo: 'Gato maluco'}
-    ]
+      { id: 1, emoji: '😁', titulo: 'Gato afable' },
+      { id: 2, emoji: '😁', titulo: 'Gato amargado' },
+      { id: 3, emoji: '😁', titulo: 'Gato molesto' },
+      { id: 4, emoji: '😁', titulo: 'Gato lindo' },
+      { id: 5, emoji: '😁', titulo: 'Gato negativo' },
+      { id: 6, emoji: '😁', titulo: 'Gato pesimista' },
+      { id: 7, emoji: '😁', titulo: 'Gato controversial' },
+      { id: 8, emoji: '😁', titulo: 'Gato maluco' },
+      { id: 9, emoji: '😁', titulo: 'Gato astuto' }
+    ];
   }
 
   ngOnInit() { }
