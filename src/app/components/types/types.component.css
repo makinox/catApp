@@ -1,7 +1,7 @@
 .container {
     /* margin-top: 50px; */
     background-color: #fff;
-    box-shadow: 0px 0px 300px rgba(0, 0, 0, 0.16);
+    box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.16);
     /* background-image: url('../../../assets/types/honor-type.jpg'); */
 }
 
@@ -15,6 +15,6 @@ img {
     border-color: rgb(211, 211, 211);
     border-radius: 5px;
     margin-bottom: 5px;
-    box-shadow: 3px 3px 3px 0px rgba(0, 0, 0, 0.16);
+    box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.16);
     padding: 10px 5px 10px 5px;
 }
