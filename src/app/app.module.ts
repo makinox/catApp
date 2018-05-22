@@ -17,13 +17,14 @@ import { TypesResComponent } from './components/types/types-res/types-res.compon
 import { StuffResComponent } from './components/stuff/stuff-res/stuff-res.component';
 import { RazasHonorComponent } from './components/razas/razas-honor/razas-honor.component';
 import { RazasPageComponent } from './components/razas/razas-page/razas-page.component';
+import { TypesPageComponent } from './components/types/types-page/types-page.component';
 
 const rutas = [
   { path: 'razas', component: RazasPageComponent },
   { path: 'razas/:gato', component: RazasResComponent },
   { path: 'cosas', component: StuffComponent },
   { path: 'cosas/:cos', component: StuffResComponent },
-  { path: 'tipos', component: TypesComponent },
+  { path: 'tipos', component: TypesPageComponent },
   { path: 'tipos/:raz', component: TypesResComponent },
   { path: '', component: IntroComponent, pathMatch: 'full' },
   { path: '**', redirectTo: '/' }
@@ -41,7 +42,8 @@ const rutas = [
     TypesResComponent,
     StuffResComponent,
     RazasHonorComponent,
-    RazasPageComponent
+    RazasPageComponent,
+    TypesPageComponent
   ],
   imports: [
     RouterModule.forRoot(rutas),

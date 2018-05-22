@@ -12,6 +12,6 @@ export class IntroComponent implements OnInit {
   ngOnInit() {
   }
 
-  title = 'catApp';
+  title = 'catApp'
 
 }
