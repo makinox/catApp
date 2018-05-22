@@ -8,3 +8,13 @@
 img {
     border-radius: 50%;
 }
+
+.types-body-card {
+    border-style: solid;
+    border-width: thin;
+    border-color: rgb(211, 211, 211);
+    border-radius: 5px;
+    margin-bottom: 5px;
+    box-shadow: 3px 3px 3px 0px rgba(0, 0, 0, 0.16);
+    padding: 10px 5px 10px 5px;
+}

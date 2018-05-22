@@ -34,7 +34,7 @@ export class TypesResComponent implements OnInit {
   }
   
   idFilter(type) {
-    return type.id = this
+    return type.titulo = this
   }
 
   findtype() {

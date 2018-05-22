@@ -16,13 +16,11 @@
         </ul> -->
       <!-- <div class="card-colum"> -->
       <div class=" col col-12 col-lg-4 p-5 align-self-center">
-        <div *ngFor="let type of types ; even as impar" class="razas-card text-center">
-          <div class="card" *ngIf="impar">
-            <div class="card-body">
-              <h5 class="card-text">
-                <a [routerLink]="['/raz', type.titulo]">{{type.titulo}} {{type.emoji}}</a>
+        <div *ngFor="let type of types ; even as impar" class="types-card text-center">
+          <div class="types-body-card" *ngIf="impar">
+              <h5 class="">
+                <a [routerLink]="['/tipos', type.titulo]">{{type.titulo}} {{type.emoji}}</a>
               </h5>
-            </div>
           </div>
         </div>
       </div>
