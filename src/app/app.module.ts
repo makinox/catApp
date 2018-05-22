@@ -10,7 +10,7 @@ import { ServiceWorkerModule } from '@angular/service-worker';
 import { environment } from '../environments/environment';
 import { TypesComponent } from './components/types/types.component';
 import { StuffComponent } from './components/stuff/stuff.component'
-import { RouterModule, Routes} from '@angular/router';
+import { RouterModule, Routes } from '@angular/router';
 import { RazasResComponent } from './components/razas/razas-res/razas-res.component';
 import { GatosService } from './services/gatos.service';
 import { TypesResComponent } from './components/types/types-res/types-res.component';
@@ -19,15 +19,15 @@ import { RazasHonorComponent } from './components/razas/razas-honor/razas-honor.
 import { RazasPageComponent } from './components/razas/razas-page/razas-page.component';
 
 const rutas = [
-  { path:'razas', component: RazasPageComponent },
-  { path:'razas/:gato', component: RazasResComponent },
-  { path:'cosas', component: StuffComponent},
-  { path:'cosas/:cos', component: StuffResComponent},
-  { path:'tipos', component: TypesComponent},
-  { path:'tipos/:raz', component: TypesResComponent},
-  { path:'', component: IntroComponent, pathMatch:'full' },
-  { path:'**', redirectTo:'/'}
-]
+  { path: 'razas', component: RazasPageComponent },
+  { path: 'razas/:gato', component: RazasResComponent },
+  { path: 'cosas', component: StuffComponent },
+  { path: 'cosas/:cos', component: StuffResComponent },
+  { path: 'tipos', component: TypesComponent },
+  { path: 'tipos/:raz', component: TypesResComponent },
+  { path: '', component: IntroComponent, pathMatch: 'full' },
+  { path: '**', redirectTo: '/' }
+];
 
 @NgModule({
   declarations: [
