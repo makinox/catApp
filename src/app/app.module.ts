@@ -9,7 +9,7 @@ import { RazasComponent } from './components/razas/razas.component';
 import { ServiceWorkerModule } from '@angular/service-worker';
 import { environment } from '../environments/environment';
 import { TypesComponent } from './components/types/types.component';
-import { StuffComponent } from './components/stuff/stuff.component'
+import { StuffComponent } from './components/stuff/stuff.component';
 import { RouterModule, Routes } from '@angular/router';
 import { RazasResComponent } from './components/razas/razas-res/razas-res.component';
 import { GatosService } from './services/gatos.service';
