@@ -1,5 +1,6 @@
 <section class="bg-light">
   <div class="container">
+
     <div class="row justify-content-center">
       <div class="col-5 mt-5 card">
         <div class="card-body">
@@ -8,5 +9,39 @@
         </div>
       </div>
     </div>
+
+    <div class="row justify-content-center">
+      <div class="card col-5 mt-3">
+        <div class="card-body">
+          <h3 class="card-title">Atributos</h3>
+          <hr>
+          <table>
+            <tbody>
+              <tr>
+                <th scope="row">Raza</th>
+                <td class="pl-2">{{typeSelect.raza}}</td>
+              </tr>
+              <tr>
+                <th scope="row">Cualidades</th>
+                <td class="pl-2">{{typeSelect.cualidad}}</td>
+              </tr>
+              <tr>
+                <th scope="row">Especiales</th>
+                <td class="pl-2">{{typeSelect.especiales}}</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+
+    <div class="row justify-content-center">
+      <div class="col-5 mt-2 card mb-5 pb-4">
+        <div class="card-body">
+          <p class="card-text">{{typeSelect.exp}}</p>
+        </div>
+      </div>
+    </div>
+
   </div>
 </section>

@@ -15,14 +15,14 @@ export class TypesResComponent implements OnInit {
 
   constructor( private route:ActivatedRoute) { 
     this.types = [
-      { emoji:'😁' ,id: 1, titulo: 'Gato afable', raza: 'anomala', descripcion: 'Asi como los humanos existen gatos con cierta perspicacia', especiales: 'Suele dormir mucho', cualidad: 'Son demasiado cariñosos',habitat:'nocturno', exp:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, adipisci. Quae, consequuntur? Eius, recusandae, fugiat hic fuga itaque cumque facilis sapiente architecto minus tenetur corrupti dicta assumenda numquam beatae rerum.'},
-      { emoji:'😁' ,id: 2, titulo: 'Gato amargado', raza: 'anomala', descripcion: 'lorem jejejejeje', habitat:'nocturno'},
-      { emoji:'😁' ,id: 3, titulo: 'Gato molesto', raza: 'anomala', descripcion: 'lorem jejejejeje', habitat:'nocturno'},
-      { emoji:'😁' ,id: 4, titulo: 'Gato lindo', raza: 'anomala', descripcion: 'lorem jejejejeje', habitat:'nocturno'},
-      { emoji:'😁' ,id: 5, titulo: 'Gato negativo', raza: 'anomala', descripcion: 'lorem jejejejeje', habitat:'nocturno'},
-      { emoji:'😁' ,id: 6, titulo: 'Gato pesimista', raza: 'anomala', descripcion: 'lorem jejejejeje', habitat:'nocturno'},
-      { emoji:'😁' ,id: 7, titulo: 'Gato controversial', raza: 'anomala', descripcion: 'lorem jejejejeje', habitat:'nocturno'},
-      { emoji:'😁' ,id: 8, titulo: 'Gato maluco', raza: 'anomala', descripcion: 'lorem jejejejeje', habitat:'nocturno'}
+      { emoji:'😁' ,id: 1, titulo: 'Gato afable', raza: 'Anomala', descripcion: 'Asi como los humanos existen gatos con cierta perspicacia', especiales: 'Suele dormir mucho', cualidad: 'Son demasiado cariñosos',habitat:'nocturno', exp:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, adipisci. Quae, consequuntur? Eius, recusandae, fugiat hic fuga itaque cumque facilis sapiente architecto minus tenetur corrupti dicta assumenda numquam beatae rerum.'},
+      { emoji:'😁' ,id: 2, titulo: 'Gato amargado', raza: 'Anomala', descripcion: 'lorem jejejejeje', habitat:'nocturno'},
+      { emoji:'😁' ,id: 3, titulo: 'Gato molesto', raza: 'Anomala', descripcion: 'lorem jejejejeje', habitat:'nocturno'},
+      { emoji:'😁' ,id: 4, titulo: 'Gato lindo', raza: 'Anomala', descripcion: 'lorem jejejejeje', habitat:'nocturno'},
+      { emoji:'😁' ,id: 5, titulo: 'Gato negativo', raza: 'Anomala', descripcion: 'lorem jejejejeje', habitat:'nocturno'},
+      { emoji:'😁' ,id: 6, titulo: 'Gato pesimista', raza: 'Anomala', descripcion: 'lorem jejejejeje', habitat:'nocturno'},
+      { emoji:'😁' ,id: 7, titulo: 'Gato controversial', raza: 'Anomala', descripcion: 'lorem jejejejeje', habitat:'nocturno'},
+      { emoji:'😁' ,id: 8, titulo: 'Gato maluco', raza: 'Anomala', descripcion: 'lorem jejejejeje', habitat:'nocturno'}
     ]
   }
 
