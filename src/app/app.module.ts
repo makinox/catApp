@@ -18,6 +18,7 @@ import { StuffResComponent } from './components/stuff/stuff-res/stuff-res.compon
 import { RazasHonorComponent } from './components/razas/razas-honor/razas-honor.component';
 import { RazasPageComponent } from './components/razas/razas-page/razas-page.component';
 import { TypesPageComponent } from './components/types/types-page/types-page.component';
+import { FooterComponent } from './components/footer/footer.component';
 
 const rutas = [
   { path: 'razas', component: RazasPageComponent },
@@ -43,7 +44,8 @@ const rutas = [
     StuffResComponent,
     RazasHonorComponent,
     RazasPageComponent,
-    TypesPageComponent
+    TypesPageComponent,
+    FooterComponent
   ],
   imports: [
     RouterModule.forRoot(rutas),
