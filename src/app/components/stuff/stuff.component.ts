@@ -11,11 +11,8 @@ export class StuffComponent implements OnInit {
 
   constructor() { 
     this.cosas = [
-      { id: 1, titulo: 'Camisas de gato'},
-      { id: 2, titulo: 'Cinturones de gato'},
-      { id: 3, titulo: 'Vinchas de gato'},
-      { id: 4, titulo: 'Shorts de gato'},
-      { id: 5, titulo: 'Relojes de gato'}
+      { id: 1, titulo: 'Camisas de gato', src: 'https://placem.at/things?w=100&h=180&random=some_seed'},
+      { id: 2, titulo: 'Cinturones de gato', src: 'https://placem.at/things?w=100&h=180&random=some_seed'}
     ]
   }
 
