@@ -2,7 +2,7 @@
   <section class="stuff-header">
     <div class="container">
       <div class="row">
-        <div class="card card-header">
+        <div class="card card-header col col-12 col-md-6 card">
           <div class="card-body">
             <h2 class="card-title">Encuentra cosas para tus gatos.</h2>
             <p class="card-text">Encuentra cosas para tus gatos.
@@ -13,7 +13,7 @@
     </div>
   </section>
   <div class="container">
-    <div class="row justify-content-center">
+    <div class="row justify-content-center mt-5">
       <div class="card m-3" *ngFor="let cosa of cosas" style="width: 18rem;">
         <img [src]="cosa.src" alt="Cosas de gatos" class="card-img-top" width="100" height="180">
         <div class="card-body">
