@@ -4,3 +4,8 @@
     box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.16);
     /* background-image: url('../../../assets/types/honor-type.jpg'); */
 }
+
+.card {
+    border-radius: 5px;
+    box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.16);
+}

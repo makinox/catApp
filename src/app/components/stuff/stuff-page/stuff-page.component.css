@@ -10,6 +10,11 @@
     box-shadow:inset 0px -10px 20px 0px rgba(0,0,0,0.16);
 }
 
-.card {
+.card-header {
     background-color: rgba(255, 255, 255, 0.85)
+}
+
+.card {
+    border-radius: 5px;
+    box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.16);
 }
