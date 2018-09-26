@@ -1,10 +1,13 @@
-import React from 'React'
+import React from 'react'
+import Navbar from './sections/components/navbar'
+import Hero from './sections/components/hero'
 
 export default class extends React.Component {
     render() {
         return(
             <div>
-                <h1>Hola mundo</h1>
+                <Navbar />
+                <Hero />
             </div>
         )
     }
