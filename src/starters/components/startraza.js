@@ -4,6 +4,7 @@ import './startraza.css'
 
 export default () => (
     <div className="starters-components-startraza-container">
+    
         <div className="starters-components-startraza-item">
             <h2>Razas de gatos</h2>
             <p>Porque no ver razas de gaticos? seguro que encuentras alguno que no conozcas o una que otra cosa que no sepas</p>
