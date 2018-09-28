@@ -7,7 +7,7 @@
 
 .starters-components-startypes-item-one {
     display: grid;
-    grid-template-columns: minmax(auto, 1fr);
+    grid-template-columns: repeat(2, minmax(auto, 1fr));
     /* grid-gap: 10px; */   
 }
 

@@ -7,16 +7,28 @@ export default () => (
 
         <div className="starters-components-startypes-item-one">
             <div className="starters-components-startypes-card">
-                <a href="/">Gato siames</a>
+                <a href="/">Raza siames <span role="img" aria-label="Emoji section">😜</span></a>
             </div>
             <div className="starters-components-startypes-card">
-                <a href="/">Gato siames</a>
+                <a href="/">Raza siames <span role="img" aria-label="Emoji section">😜</span></a>
             </div>
             <div className="starters-components-startypes-card">
-                <a href="/">Gato siames</a>
+                <a href="/">Raza siames <span role="img" aria-label="Emoji section">😜</span></a>
             </div>
             <div className="starters-components-startypes-card">
-                <a href="/">Gato siames</a>
+                <a href="/">Raza siames <span role="img" aria-label="Emoji section">😜</span></a>
+            </div>
+            <div className="starters-components-startypes-card">
+                <a href="/">Raza siames <span role="img" aria-label="Emoji section">😜</span></a>
+            </div>
+            <div className="starters-components-startypes-card">
+                <a href="/">Raza siames <span role="img" aria-label="Emoji section">😜</span></a>
+            </div>
+            <div className="starters-components-startypes-card">
+                <a href="/">Raza siames <span role="img" aria-label="Emoji section">😜</span></a>
+            </div>
+            <div className="starters-components-startypes-card">
+                <a href="/">Raza siames <span role="img" aria-label="Emoji section">😜</span></a>
             </div>
         </div>
         <div className="starters-components-startypes-item">
