@@ -18,6 +18,19 @@ const TypeCard = () => (
 	</div>
 )
 
+const ProductCard = () => (
+  <div className="index-shop-item-product">
+    <img src="https://picsum.photos/100/100" alt="Producto"/>
+    <h4>Producto interesante</h4>
+  </div>
+)
+
+const CarouselButton = () => (
+  <div>
+    <span></span>
+</div>
+)
+
 export default () => (
   <>
     <div className="index-hero-container">
@@ -69,6 +82,35 @@ export default () => (
         img="https://picsum.photos/200/200"
         alt="Imagenes de razas de gatos"
       />
+    </Container>
+
+    <Container>
+      
+      <Presentation
+        title="Compra algo"
+        text="Porque no ver razas de gaticos? seguro que encuentras alguno que no conozcas o una que otra cosa que no sepas"
+        img="https://picsum.photos/200/200"
+        alt="Imagenes de razas de gatos"
+      />
+
+      <div className="index-shop-item">
+        <div className="index-shop-item-header">
+          
+          <ProductCard />
+          <ProductCard />
+          <ProductCard />
+          <ProductCard />
+
+        </div>
+        <div className="index-shop-item-bottom">
+
+          <CarouselButton />
+          <CarouselButton />
+          <CarouselButton />
+
+        </div>
+      </div>
+
     </Container>
   </>
 )
