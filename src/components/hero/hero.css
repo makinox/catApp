@@ -1,0 +1,15 @@
+.sections-component-hero-container {
+	display: grid;
+	grid-template-columns:  repeat(auto-fit, minmax(auto, 450px));
+	justify-content: space-evenly;
+	padding-top: 10vh;
+}
+
+.sections-component-hero-item-one {
+	padding-top: 12vh;
+}
+
+.sections-component-hero-item img {
+	width: 400px;
+	height: 400px;
+}
