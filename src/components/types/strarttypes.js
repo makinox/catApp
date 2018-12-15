@@ -27,7 +27,7 @@ export default () => (
 		</div>
 
 		<Presentation
-			title="Razas de gatos"
+			title="Tipos de gatos"
 			text="Porque no ver razas de gaticos? seguro que encuentras alguno que no conozcas o una que otra cosa que no sepas"
 			img="https://picsum.photos/200/200"
 			alt="Imagenes de razas de gatos"

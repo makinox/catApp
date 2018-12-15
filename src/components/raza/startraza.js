@@ -6,7 +6,7 @@ import './startraza.css'
 
 const RazaCard = () => (
 	<div className="starters-components-startraza-card">
-		<img src="https://picsum.photos/150/150" alt="Imagenes de razas de gatos" />
+		<img src="https://picsum.photos/100/100" alt="Imagenes de razas de gatos" />
 		<a href="/">Gato siames</a>
 	</div>
 )
