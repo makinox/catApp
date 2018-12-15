@@ -1,10 +1,16 @@
-nav {
-	background-color: rgba(255, 255, 255, .9);
-	padding: 10px 15px;
-	box-shadow: 0 3px 3px 1px rgba(0, 0, 0, .1);
+header {
 	display: grid;
-	grid-template-columns: minmax(auto, 1000px) repeat(3, auto);
-	grid-gap: 10px 0;
+	grid-template-columns: minmax(auto, 1100px);
+	justify-content: center;
+	background-color: rgba(255, 255, 255, .9);
+	box-shadow: 0 3px 3px 1px rgba(0, 0, 0, .1);
+}
+
+nav {
+	padding: 10px 15px;
+	display: grid;
+	grid-template-columns: minmax(auto, 8000px) repeat(3, auto);
+	grid-gap: 10px 10px;
 	align-items: center;
 }
 

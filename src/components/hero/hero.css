@@ -2,14 +2,15 @@
 	display: grid;
 	grid-template-columns:  repeat(auto-fit, minmax(auto, 450px));
 	justify-content: space-evenly;
-	padding-top: 10vh;
+	align-items: center;
+	margin: 100px 0;
 }
 
-.sections-component-hero-item-one {
-	padding-top: 12vh;
+.sections-component-hero-item {
+	text-align: center;
 }
 
 .sections-component-hero-item img {
-	width: 400px;
-	height: 400px;
+	width: 300px;
+	height: 300px;
 }
