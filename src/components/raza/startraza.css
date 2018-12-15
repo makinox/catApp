@@ -1,24 +1,3 @@
-.starters-components-startraza-container {
-	display: grid;
-	grid-template-columns: repeat(2, minmax(auto, 500px));
-	justify-content: space-around;
-	margin: 20px 0;
-}
-
-.starters-components-startraza-item {
-	text-align: center;
-	align-self: center;
-}
-
-.starters-components-startraza-item p {
-	margin: 10px 40px;
-}
-
-.starters-components-startraza-item img {
-	border-radius: 10px;
-	box-shadow: 1px 1px 15px 0 rgba(0, 0, 0, .3);
-}
-
 .starters-components-startraza-item-two {
 	display: grid;
 	grid-template-columns: repeat(2, minmax(auto, 500px));
