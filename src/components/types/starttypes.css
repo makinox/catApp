@@ -1,6 +1,7 @@
 .starters-components-startypes-item-one {
 	display: grid;
 	grid-template-columns: repeat(2, minmax(auto, 1fr));
+	align-content: center;
 	grid-gap: 20px 0;
 }
 

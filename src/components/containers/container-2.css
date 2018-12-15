@@ -1,6 +1,6 @@
 .container-2 {
 	display: grid;
 	grid-template-columns: repeat(2, minmax(auto, 500px));
-	justify-content: space-around;
+	justify-content: space-evenly;
 	margin: 20px 0;
 }
