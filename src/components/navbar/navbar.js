@@ -1,5 +1,5 @@
 import React from 'react'
-import img1 from '../../assets/navbar/logo.svg'
+import img1 from '../../assets/hero/cat.svg'
 import './navbar.css'
 
 export default () => (
