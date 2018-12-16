@@ -6,16 +6,19 @@ export default () => (
 	<header>
 		<nav>
 			<div>
-				<a href="#pan"><img src={img1} alt="Logo de jesús bossa" /></a>
+				<a href="#razas"><img src={img1} alt="Logo de jesús bossa" /></a>
 			</div>
 			<div>
-				<a href="#about">Razas</a>
+				<a href="#tipos">Razas</a>
 			</div>
 			<div>
 				<a href="#experience">Tipos</a>
 			</div>
 			<div>
-				<a href="#studies">Accesorios</a>
+				<a href="#store">Tienda</a>
+			</div>
+			<div>
+				<a href="#store">Magia</a>
 			</div>
 		</nav>
 	</header>
