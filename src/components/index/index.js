@@ -112,5 +112,37 @@ export default () => (
       </div>
 
     </Container>
+
+    <div className="index-news">
+
+      <div>
+        <h2>Lee algo?</h2>
+      </div>
+
+      <Container>
+
+        <div className="index-types-item">
+          <TypeCard />
+          <TypeCard />
+          <TypeCard />
+          <TypeCard />
+          <TypeCard />
+          <TypeCard />
+          <TypeCard />
+          <TypeCard />
+        </div>
+
+        <div className="index-raza-item">
+
+          <RazaCard />
+          <RazaCard />
+          <RazaCard />
+          <RazaCard />
+
+        </div>
+
+      </Container>
+    
+    </div>
   </>
 )
