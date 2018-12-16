@@ -1,3 +1,9 @@
 import React from 'react'
-import Index from './pages/index'
-export default () => <Index />
+import Core from './utils/routes/routes'
+import Navbar from './components/navbar/navbar'
+
+export default () => (
+  <Core>
+    <Navbar />
+  </Core>
+)

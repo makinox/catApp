@@ -1,21 +1,19 @@
 footer {
-  padding: 10px;
-  background: rgba(0, 0, 0, .7);
+  padding: 5px;
 }
 
 h2 {
-  color: #8b8b8b;
-  opacity: .4;
+  color: #333333;
   font-size: 20px;
 }
 
 a {
-  color: #8b8b8b;
+  color: #333333;
   text-decoration: none;
 }
 
 a:hover {
-  color: #b8b8b8;
+  color: #000;
 }
 
 a:active {

@@ -1,7 +1,8 @@
 import React from 'react'
 
-import Container from '../containers/container-2'
 import img1 from '../../assets/hero/cat.svg'
+import Container from '../containers/container-2'
+import Footer from '../footer/footer'
 import './index.css'
 
 const RazaCard = () => (
@@ -151,5 +152,7 @@ export default () => (
       </Container>
     
     </div>
+  
+    <Footer />
   </>
 )
