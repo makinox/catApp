@@ -75,7 +75,7 @@ export default () => (
 
     </div>
 
-    <Container>
+    <Container className="index-middleware2">
       <div className="index-types-item">
         <TypeCard />
         <TypeCard />

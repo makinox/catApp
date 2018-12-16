@@ -2,7 +2,7 @@ import React from 'react'
 import './container-2.css'
 
 export default (props) => (
-  <div className="container-2">
+  <div className={`container-2 ${props.className}`}>
     {props.children}
   </div>
 )
