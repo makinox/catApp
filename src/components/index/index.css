@@ -91,7 +91,6 @@
 	background-image: url('../../assets/index/cat4.svg');
 	background-repeat: no-repeat;
 	background-position-x: -3%;
-	/* background-size: 20%; */
 }
 
 .index-types-card {
@@ -111,6 +110,13 @@
 
 .index-types-card a:hover {
 	transform: scale(1.05);
+}
+
+.index-middelware3 {
+	background-image: url('../../assets/index/cat2.svg');
+	background-repeat: no-repeat;
+	background-position-x: 100%;
+	background-size: 100%;
 }
 
 .index-shop-item-header {

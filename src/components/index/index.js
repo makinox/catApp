@@ -95,67 +95,70 @@ export default () => (
       />
     </Container>
 
-    <Container>
-      
-      <Presentation
-        title="Compra algo"
-        text="Porque no ver razas de gaticos? seguro que encuentras alguno que no conozcas o una que otra cosa que no sepas"
-        img="https://picsum.photos/200/200"
-        alt="Imagenes de razas de gatos"
-      />
-
-      <div className="index-shop-item">
-        <div className="index-shop-item-header">
-          
-          <ProductCard />
-          <ProductCard />
-          <ProductCard />
-          <ProductCard />
-
-        </div>
-        <div className="index-shop-item-bottom">
-
-          <CarouselButton />
-          <CarouselButton />
-          <CarouselButton />
-
-        </div>
-      </div>
-
-    </Container>
-
-    <div className="index-news">
-
-      <div>
-        <h2>Lee algo?</h2>
-      </div>
+    <div className="index-middelware3">
 
       <Container>
+        
+        <Presentation
+          title="Compra algo"
+          text="Porque no ver razas de gaticos? seguro que encuentras alguno que no conozcas o una que otra cosa que no sepas"
+          img="https://picsum.photos/200/200"
+          alt="Imagenes de razas de gatos"
+        />
 
-        <div className="index-types-item">
-          <TypeCard />
-          <TypeCard />
-          <TypeCard />
-          <TypeCard />
-          <TypeCard />
-          <TypeCard />
-          <TypeCard />
-          <TypeCard />
-        </div>
+        <div className="index-shop-item">
+          <div className="index-shop-item-header">
+            
+            <ProductCard />
+            <ProductCard />
+            <ProductCard />
+            <ProductCard />
 
-        <div className="index-raza-item">
+          </div>
+          <div className="index-shop-item-bottom">
 
-          <RazaCard />
-          <RazaCard />
-          <RazaCard />
-          <RazaCard />
+            <CarouselButton />
+            <CarouselButton />
+            <CarouselButton />
 
+          </div>
         </div>
 
       </Container>
-    
+
+      <div className="index-news">
+
+        <div>
+          <h2>Lee algo?</h2>
+        </div>
+
+        <Container>
+
+          <div className="index-types-item">
+            <TypeCard />
+            <TypeCard />
+            <TypeCard />
+            <TypeCard />
+            <TypeCard />
+            <TypeCard />
+            <TypeCard />
+            <TypeCard />
+          </div>
+
+          <div className="index-raza-item">
+
+            <RazaCard />
+            <RazaCard />
+            <RazaCard />
+            <RazaCard />
+
+          </div>
+
+        </Container>
+      
+      </div>
+      
     </div>
-  
     <Footer />
   </>
 )
