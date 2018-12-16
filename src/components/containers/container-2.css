@@ -3,4 +3,13 @@
 	grid-template-columns: repeat(2, minmax(auto, 500px));
 	justify-content: space-evenly;
 	margin: 60px 0;
+	padding: 20px 0;
+	border-bottom: 1px solid #eeeeee;
+}
+
+@media (max-width: 830px) {
+	.container-2 {
+		grid-template-columns: minmax(auto, 1fr);
+		grid-gap: 20px 0;
+	}
 }

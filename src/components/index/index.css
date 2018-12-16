@@ -121,7 +121,6 @@
 
 .index-shop-container {
 	margin: 0;
-	padding-bottom: 20px;
 }
 
 .index-shop-item-header {
@@ -162,4 +161,22 @@
 
 .index-news h2 {
   text-align: center;
+}
+
+@media (max-width: 800px) {
+	.index-hero-container {
+		background-image: none;
+	}
+
+	.index-middleware {
+		background-image: none;
+	}
+
+	.index-middleware2 {
+		background-image: none;
+	}
+	
+	.index-middelware3 {
+		background-position-y: 100%;
+	}
 }
