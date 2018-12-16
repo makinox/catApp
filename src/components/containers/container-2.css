@@ -2,5 +2,5 @@
 	display: grid;
 	grid-template-columns: repeat(2, minmax(auto, 500px));
 	justify-content: space-evenly;
-	margin: 20px 0;
+	margin: 60px 0;
 }

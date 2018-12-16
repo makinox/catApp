@@ -119,6 +119,11 @@
 	background-size: 100%;
 }
 
+.index-shop-container {
+	margin: 0;
+	padding-bottom: 20px;
+}
+
 .index-shop-item-header {
   display: grid;
   grid-template-columns: repeat(2, minmax(auto, 400px));

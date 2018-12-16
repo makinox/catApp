@@ -132,7 +132,7 @@ export default () => (
           <h2>Lee algo?</h2>
         </div>
 
-        <Container>
+        <Container className="index-shop-container">
 
           <div className="index-types-item">
             <TypeCard />
