@@ -1,6 +1,5 @@
 import React from 'react'
 
-import Presentation from '../presentation/presentation'
 import Container from '../containers/container-2'
 import img1 from '../../assets/hero/cat.svg'
 import './index.css'
@@ -29,6 +28,14 @@ const CarouselButton = () => (
   <div>
     <span></span>
 </div>
+)
+
+const Presentation = (props) => (
+  <div className="presentation">
+    <h2>{props.title}</h2>
+    <p>{props.text}</p>
+    <img src={props.img} alt={props.alt} />
+  </div>
 )
 
 export default () => (

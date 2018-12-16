@@ -15,6 +15,20 @@
 	height: 300px;
 }
 
+.presentation {
+	text-align: center;
+	align-self: center;
+}
+
+.presentation p {
+	margin: 10px 40px;
+}
+
+.presentation img {
+	border-radius: 65px;
+	box-shadow: 1px 1px 15px 0 rgba(0, 0, 0, .3);
+}
+
 .index-raza-item {
 	display: grid;
 	grid-template-columns: repeat(2, minmax(auto, 500px));
@@ -107,7 +121,12 @@
   height: 20px;
   margin: 0 10px;
   border-radius: 50%;
-  box-shadow: 1px 1px 15px 0 rgba(0, 0, 0, .3);
+	box-shadow: 1px 1px 5px 0 rgba(0, 0, 0, .3);
+	transition: 0.15s ease;
+}
+
+.index-shop-item-bottom span:hover {
+	transform: scale(1.15);
 }
 
 .index-news h2 {
