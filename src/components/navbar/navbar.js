@@ -1,4 +1,5 @@
 import React from 'react'
+import {Link} from 'react-router-dom'
 import img1 from '../../assets/hero/cat.svg'
 import './navbar.css'
 
@@ -6,10 +7,10 @@ export default () => (
 	<header>
 		<nav>
 			<div>
-				<a href="#razas"><img src={img1} alt="Logo de jesús bossa" /></a>
+				<Link to="/"><img src={img1} alt="Logo de jesús bossa" /></Link>
 			</div>
 			<div>
-				<a href="#tipos">Razas</a>
+				<Link to="/breed">Razas</Link>
 			</div>
 			<div>
 				<a href="#experience">Tipos</a>
