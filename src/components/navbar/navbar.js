@@ -1,5 +1,5 @@
 import React from 'react'
-import {Link} from 'react-router-dom'
+import { Link } from 'react-router-dom'
 import img1 from '../../assets/hero/cat.svg'
 import './navbar.css'
 
@@ -13,13 +13,13 @@ export default () => (
 				<Link to="/breed">Razas</Link>
 			</div>
 			<div>
-				<a href="#experience">Tipos</a>
+				<Link to="/type">Tipos</Link>
 			</div>
 			<div>
-				<a href="#store">Tienda</a>
+				<Link to="/store">Tienda</Link>
 			</div>
 			<div>
-				<a href="#store">Magia</a>
+				<Link to="/magic">Magia</Link>
 			</div>
 		</nav>
 	</header>

@@ -1,0 +1,23 @@
+.raza-header {
+  text-align: center;
+  background-color: #F3D3BD;
+  border-bottom-left-radius: 120px;
+}
+
+.raza-header img {
+  width: fit-content;
+  height: fit-content;
+  max-width: 200px;
+  max-height: 200px;
+  border-radius: 50%;
+  padding: 40px;
+  margin-top: 30px;
+  border: 1px solid #F3D3BD;
+  background-color: #fff;
+}
+
+.raza-header h2 {
+  color: #fff;
+  font-size: 40px;
+  margin: 0;
+}
