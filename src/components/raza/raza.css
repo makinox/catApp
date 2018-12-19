@@ -21,3 +21,29 @@
   font-size: 40px;
   margin: 0;
 }
+
+.raza-body {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(auto, 1fr));
+  margin-top: 20px;
+  justify-content: center;
+  justify-items: center;
+  grid-gap: 10px;
+  text-align: center;
+}
+
+.raza-card {
+  cursor: pointer;
+  box-shadow: 1px 1px 5px 0 rgba(0, 0, 0, .2);
+  border-radius: 5px;
+  transition: .2s ease;
+}
+
+.raza-card:hover {
+  transform: scale(1.05);
+}
+
+.raza-card img {
+  width: 200px;
+  height: 100px;
+}
