@@ -23,6 +23,14 @@
   margin: 0;
 }
 
+.type-body {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(auto, 200px));
+  grid-gap: 20px 0;
+  justify-content: center;
+  margin-top: 20px;
+}
+
 .types-card {
 	text-align: center;
 }

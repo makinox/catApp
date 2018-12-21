@@ -40,6 +40,9 @@ export default () => (
       <TypeCard />
       <TypeCard />
       <TypeCard />
+      <TypeCard />
+      <TypeCard />
+      <TypeCard />
     </div>
   </>
 )
