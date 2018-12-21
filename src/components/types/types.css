@@ -1,0 +1,24 @@
+.type-header {
+  text-align: center;
+  background-color: #48E5C2;
+  border-bottom-left-radius: 120px;
+  border-bottom-right-radius: 120px;
+}
+
+.type-header img {
+  width: fit-content;
+  height: fit-content;
+  max-width: 200px;
+  max-height: 200px;
+  border-radius: 50%;
+  padding: 40px;
+  margin-top: 30px;
+  border: 1px solid #48E5C2;
+  background-color: #fff;
+}
+
+.type-header h2 {
+  color: #fff;
+  font-size: 40px;
+  margin: 0;
+}
