@@ -4,6 +4,7 @@ import Home from '../../pages/index'
 import Breed from '../../pages/raza'
 import Types from '../../pages/type'
 import Shop from '../../pages/shop'
+import Magic from '../../pages/magia'
 
 export default (props) => (
   <Router>
@@ -14,6 +15,7 @@ export default (props) => (
         <Route exact path="/breed" component={Breed} />
         <Route exact path="/type" component={Types} />
         <Route exact path="/store" component={Shop} />
+        <Route exact path="/magic" component={Magic} />
       </Switch>
     </>
   </Router>
