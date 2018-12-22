@@ -2,7 +2,14 @@ import React from 'react'
 import Img1 from '../../assets/shop/cat5.svg'
 import './shop.css'
 
-export default () => (
+const RazaCard = (props) => (
+	<div className="index-raza-card">
+		<img src="https://picsum.photos/100/100" alt="Imagenes de razas de gatos" />
+		<a href="/">{props.name}</a>
+	</div>
+)
+
+export default (props) => (
   <>
     <div className="shop-header">
       <div>
@@ -13,6 +20,9 @@ export default () => (
       </div>
     </div>
     <div className="shop-body">
+      {props.cat.map(el => (
+        <RazaCard name={el.name}/>
+      ))}
     </div>
   </>
 )
