@@ -25,7 +25,24 @@
 .magia-body {
   display: grid;
   grid-template-columns: repeat(4, minmax(auto, 200px));
-  grid-gap: 20px 0;
+  grid-gap: 20px;
   justify-content: center;
   margin-top: 20px;
+}
+
+.magia-body img {
+  display: block;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	transition: transform 400ms ease-out;
+}
+
+.magia-body div {
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.magia-body img:hover {
+  transform: scale(1.15);
 }
