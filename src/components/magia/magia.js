@@ -2,7 +2,13 @@ import React from 'react'
 import Img1 from '../../assets/magia/cat5.svg'
 import './magia.css'
 
-export default () => (
+const CatImages = (props) => (
+  <div>
+    <img src={props.src} alt={props.alt} />
+  </div>
+)
+
+export default (props) => (
   <>
     <div className="magia-header">
       <div>
@@ -13,7 +19,10 @@ export default () => (
       </div>
     </div>
     <div className="magia-body">
-
+      {console.log(props.cats)}
+      {props.cats.map( (el, i) => (
+        <CatImages src={el.thumb} alt={el.description} key={i}/>
+      ))}
     </div>
   </>
 )
